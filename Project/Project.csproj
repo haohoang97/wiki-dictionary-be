@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>038f61ad-4634-4db2-a559-f9e2a518f620</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Google.Cloud.Translation.V2" Version="2.0.0" />
+    <PackageReference Include="Google.Cloud.Vision.V1" Version="2.1.0" />
+    <PackageReference Include="Microsoft.AspNet.WebApi.Cors" Version="5.2.7" />
+    <PackageReference Include="MongoDB.Driver" Version="2.11.2" />
+    <PackageReference Include="Nancy" Version="2.0.0" />
+  </ItemGroup>
+
+
+</Project>
